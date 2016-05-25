@@ -1,0 +1,16 @@
+{
+    "name":"cis/general",
+    "type":"magento-module",
+    "license":"CIS-3.0",
+    "homepage":"https://github.com/cisvaibhav/username",
+    "description":"Magento extension to hide categories and products from customers depending on their customer group.",
+    "authors":[
+        {
+            "name":"Vaibhav Bhalerao",
+            "email":"vaibhav.d@cisinlabs.com"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}

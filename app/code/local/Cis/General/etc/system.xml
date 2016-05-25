@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <cis translate="label" module="general">
+            <label>Cis Extension</label>
+            <sort_order>100</sort_order>
+        </cis>
+    </tabs>
+    <sections>
+        <cis translate="label" module="general">
+            <label>Description Text Setting</label>
+            <tab>cis</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <cis_group translate="label" module="general">
+                    <label>Billing/Shipping address text setting</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <billing_input translate="label">
+                            <label>Billing Address Text: </label>
+                            <comment>Please enter text for billing description.</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </billing_input>
+                        <shipping_input translate="label">
+                            <label>Shipping Address Text: </label>
+                            <comment>Please enter text for shipping description.</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </shipping_input>
+                    </fields>
+                </cis_group>
+            </groups>
+        </cis>
+    </sections>
+</config>
