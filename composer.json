@@ -1,16 +1,18 @@
 {
     "name":"cisvaibhav/username",
     "type":"magento-module",
+    "license": "OSL-3.0",
     "description":"Magento extension to hide categories and products from customers depending on their customer group.",
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
+   "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "cisvaibhav/username": "*"
     },
-    "extra":{
-        "map":[
-          ["app/code/local/Cis/General", "app/code/local/Cis/General"],
-          ["app/etc/Cis_General.xml", "app/etc/Cis_General.xml"]
-        ]
-    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:cisvaibhav/username.git"
+        }
+    ],
     "authors":[
         {
             "name":"Vaibhav Bhalerao",
