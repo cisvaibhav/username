@@ -2,9 +2,10 @@
     "name":"cisvaibhav/username",
     "type":"magento-module",
     "license": "OSL-3.0",
+    "version": "1.5",
     "description":"Magento extension to hide categories and products from customers depending on their customer group.",
    "require": {
-        "cisvaibhav/username": "1.5"
+        "cisvaibhav/username": "*"
     },
     "repositories": [
         {
