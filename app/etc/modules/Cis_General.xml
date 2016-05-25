@@ -10,7 +10,7 @@
 <config>
     <modules>
         <Cis_General>
-            <active>false</active>
+            <active>true</active>
             <codePool>local</codePool>
         </Cis_General>
     </modules>
